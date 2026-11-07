@@ -29,7 +29,7 @@ def run_with_spinner(task_name, func):
 
 def speed_test():
     print("=" * 45)
-    print(" 🚀 Internet Speed Test")
+    print(" Internet Speed Test")
     print("=" * 45)
 
     try:
@@ -44,13 +44,13 @@ def speed_test():
 
         ping = round(st.results.ping, 2)
 
-        print("\n✅ Test completed successfully!\n")
-        print(f"📥 Download Speed : {down_speed} Mbps")
-        print(f"📤 Upload Speed   : {up_speed} Mbps")
-        print(f"⚡ Ping           : {ping} ms")
+        print("\nTest completed successfully!\n")
+        print(f"Download Speed : {down_speed} Mbps")
+        print(f"Upload Speed   : {up_speed} Mbps")
+        print(f"Ping           : {ping} ms")
 
     except Exception as e:
-        print(f"\n❌ Error during speed test: {e}")
+        print(f"\nError during speed test: {e}")
 
 
 if __name__ == "__main__":
